@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# 生成物（看板输出）
+out/
+*.html
+
+# 内嵌用的 ECharts 库（由 scripts/fetch_echarts.py 下载，不入库）
+assets/echarts.min.js
